@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>exe004</title>
+    <style>
+        body {
+            font:normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = window.prompt("Tell your name: ");
+        var salario = Number(window.prompt("Tell your salario: ")); // forcando a ser numerico e nao texto
+        document.write(`Hello, ${nome}! Your name have ${nome.length} letters <br>`);
+        document.write(`Your name in uppercase: ${nome.toUpperCase()} <br>`);
+        document.write(`Your name in lowercase: ${nome.toLowerCase()} <br>`);
+        document.write('Your salary ', salario.toLocaleString('pt-BR', {style:'currency', currency: 'BRL'}), '<br>');
+
+        /*var name = window.prompt('Qual o seu nome! ')
+        var idade = Number(window.prompt('Qual a sua idade!'))
+        var sal = Number(window.prompt('Qua o seu salario!'))
+        document.write(`Ola ${name}, sua idade é de ${idade} anos, e tem o salario de ${sal.toLocaleString('pt-BR', {style:'currency', currency: 'BRL'})}`)*/
+    </script>
+</body>
+</html>

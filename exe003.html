@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>exe003</title>
+
+    <style>
+        body{
+            background-color: greenyellow;
+            font:bold 30pt Arial;
+        }
+    </style>
+</head>   
+<body>
+    <h1 style="color: brown">Hello World</h1>   
+    <p>Javaoscript é o bicho</p>
+    
+    <script>
+        var nome = window.prompt("Tell me your name, please: ");
+        var  n1 = Number.parseInt(window.prompt("digit a number: "));// Number.parseInt: força a variavel a ser numerico
+        var  n2 = Number.parseInt(window.prompt("digit a number: "));
+        var  s = n1 + n2;
+        //window.alert("O res da soma: " + s);
+        window.alert(`${nome}, sua soma ${n1} + ${n2} é: ${s}`);// utiliza-se crase `` e nao aspas ""
+    </script>
+</body>
+</html>

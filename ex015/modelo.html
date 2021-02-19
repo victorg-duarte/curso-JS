@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modelo em Exercício</title>
+    <link rel="stylesheet" href="modelo.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idades</h1>
+    </header>
+    <section>
+        <div>
+           <p>
+               Ano de Nascimento: 
+               <input type="number" name="txtano" id="txtano" min="0">
+           </p>
+           <p>
+               Sexo:
+               <input type="radio" name="radsex" id="masc" checked>
+               <label for="masc">Masculino</label>
+               <input type="radio" name="radsex" id="fem">
+               <label for="fem">Feminino</label>
+               <p><input type="button" value="Verificar" onclick="verificar()"></p> 
+           </p>
+        </div>
+        <div id="res">
+           Resultado: 
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; VictorGD</p>
+    </footer>
+    <script src="modelo.js"></script>
+</body>
+</html>
