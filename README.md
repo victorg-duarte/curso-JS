@@ -1,2 +1,2 @@
 # curso-JS
- Curso feito no canal Curso em Vídeo (Guanabara) - 2019
+ Curso básico, feito no canal Curso em Vídeo (Guanabara) - 2019
